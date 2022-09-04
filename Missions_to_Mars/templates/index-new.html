@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Latest on Mars!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="jumbotron text-center">
+            <h1>The Latest on Mars...</h1>
+            <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Get Latest Mars Data!</a></p>
+        </div>
+        <img src="{{ Mars.mars_img }}" alt="Sloth">
+        <h2>Latest Mars News:{{ Mars.mars_news}}</h2> -->
+
+        <!-- Phone Listings -->
+        <div class="row" id="Mars-mars-facts">
+            <div class="col-md-12">
+                <h4 class="heading">{{listings.price}} {{listings.headline}}</h4>
+                <small>{{listings.reviews}}</small>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
