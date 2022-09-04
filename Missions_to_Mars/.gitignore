@@ -1,6 +1,6 @@
 # Ignore folders
 dir_to_ignore/.ipynb_checkpoints
-dir_to_ignore/_pychache_
+dir_to_ignore/_pycache_
 
 # ignore old html
 index-new.html
