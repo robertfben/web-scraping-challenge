@@ -6,7 +6,6 @@ import time
 from webdriver_manager.chrome import ChromeDriverManager
 import pandas as pd
 import re
-# from selenium import webdriver
 
 # create master scrape function
 def Scrape_All():
@@ -132,9 +131,6 @@ def mars_highres_img_scrape(browser):
     # empty dict for images
     hemisphere_image_urls = []
 
-    # links = browser.find_by_css('a.product-item img')
-    # print(links)
-
     # scrape page into soup
     html = browser.html
     # parse html with beautful soup
@@ -165,5 +161,3 @@ def mars_highres_img_scrape(browser):
         print(Image_URL)
     
     return hemisphere_image_urls
-
-#Scrape_All()
